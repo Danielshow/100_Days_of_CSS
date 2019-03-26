@@ -1,0 +1,15 @@
+{
+  "name": "100_Days_of_CSS",
+  "version": "1.0.0",
+  "description": "100 days of CSS",
+  "main": "index.js",
+  "repository": "https://github.com/Danielshow/100_Days_of_CSS.git",
+  "author": "Daniel Shotonwa <danielshotonwa53@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss ./css/style.css -w"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
